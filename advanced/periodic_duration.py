@@ -28,7 +28,7 @@ for i in range(1, N + 1):
 
             midi_file.addNote(0, 0, note, time, duration, 100)
 
-    time += max_duration
+    time += duration
 
 def save_midi(midi_handle, filename):
     with open(f'{filename}.mid', 'wb') as output_file:
