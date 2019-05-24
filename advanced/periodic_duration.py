@@ -1,6 +1,5 @@
 from midiutil import MIDIFile
-from math import sin, pi
-from random import randint
+from math import sin
 
 midi_file = MIDIFile(1) # Create MIDI file with one track.
 midi_file.addTempo(0, 0, 240) # set the tempo to 120 BPM on track 0, at time 0.
